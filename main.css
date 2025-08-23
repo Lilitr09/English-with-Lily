@@ -7,6 +7,9 @@
 :root{
     --oxford-blue: #002147;
     --beige-fondo: #F5F5DC;
+    --accent-blue: #1a4b8c;
+    --gold: #FFD700;
+    --light-blue: #e6f0ff;
 }
 body {
     background-color: var(--beige-fondo);
