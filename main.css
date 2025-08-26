@@ -78,6 +78,18 @@ body {
     background: white;
     color: var(--oxford-blue);
 }
+.btn-outline-courses {
+    background: var(--oxford-blue);
+    color: white;
+    padding: 1rem 2.5rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.btn-outline-courses:hover {
+    background: var(--accent-blue);
+    color: white;
+}
         
 .feature-list {
     list-style: none;
