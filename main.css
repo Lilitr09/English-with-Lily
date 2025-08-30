@@ -255,3 +255,84 @@ footer {
     border: none;
     cursor: pointer;
 }
+* Features Section Styles */
+        .features-section {
+            padding: 5rem 0;
+            background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+        }
+        
+        .section-title {
+            color: var(--oxford-blue);
+            font-weight: 700;
+            margin-bottom: 3rem;
+            position: relative;
+            text-align: center;
+        }
+        
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--gold);
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+        
+        .feature-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            height: 100%;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon-container {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--oxford-blue) 0%, var(--accent-blue) 100%);
+            color: white;
+            font-size: 30px;
+        }
+        
+        .feature-card .card-title {
+            color: var(--oxford-blue);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card .card-text {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        /* Ajustes para los íconos específicos */
+        .feature-card:nth-child(1) .feature-icon-container {
+            background: linear-gradient(135deg, #4e54c8 0%, #8a94e3 100%);
+        }
+        
+        .feature-card:nth-child(2) .feature-icon-container {
+            background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+        }
+        
+        .feature-card:nth-child(3) .feature-icon-container {
+            background: linear-gradient(135deg, #00b09b 0%, #96c93d 100%);
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .feature-card {
+                margin-bottom: 30px;
+            }
+        }

@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://lilitr09.github.io/My-English-Tutoring-Page-/">
     <meta property="og:title" content="English with Lily - Online English Courses">
     <meta property="og:description" content="Learn English online. Personalized courses and conversational classes.">
-    <meta property="og:image" content=""> <!--Hacer la imagen de preview-->
+    <meta property="og:image" content="https://github.com/Lilitr09/My-English-Tutoring-Page-/blob/main/src/assets/preview.png">
 
     <!-- Favicon & Web App -->
     <link rel="icon" type="image/x-icon" href="./src/assets/favicon.ico">
@@ -91,34 +91,77 @@
     
 
     <!-- Features Section -->
-    <section class="py-5 mt-5">
-        <h2 class="text-center hero-title">Que ofrecemos</h2>
-        <div class="container mt-5">
+    <section class="features-section mt-5" id="features">
+        <div class="container">
+            <h2 class="section-title">¿Qué Ofrecemos?</h2>
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-laptop fs-1 text-primary mb-3"></i>
+                    <div class="card feature-card">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-container">
+                                <i class="fas fa-laptop"></i>
+                            </div>
                             <h3 class="card-title">Material Didáctico Actualizado</h3>
-                            <p class="card-text">Acceso a recursos modernos y relevantes que facilitan la práctica del idioma</p>
+                            <p class="card-text">Acceso a recursos modernos y relevantes que facilitan la práctica del idioma en contextos reales y situaciones cotidianas.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-gear fs-1 text-primary mb-3"></i>
+                    <div class="card feature-card">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-container">
+                                <i class="fas fa-user-cog"></i>
+                            </div>
                             <h3 class="card-title">Clases Personalizadas</h3>
-                            <p class="card-text">Cada lección se ajusta a tus intereses y necesidades específicas, lo que maximiza tu aprendizaje</p>
+                            <p class="card-text">Cada lección se ajusta a tus intereses, nivel y necesidades específicas, maximizando tu aprendizaje y progreso.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-lightning fs-1 text-primary mb-3"></i>
+                    <div class="card feature-card">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-container">
+                                <i class="fas fa-clock"></i>
+                            </div>
                             <h3 class="card-title">Flexibilidad de Tiempo</h3>
-                            <p class="card-text">Estudia desde la comodidad de tu hogar y elige horarios que se adapten a tu rutina diaria</p>
+                            <p class="card-text">Estudia desde la comodidad de tu hogar y elige horarios que se adapten perfectamente a tu rutina diaria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional row for more features if needed -->
+            <div class="row mt-4">
+                <div class="col-lg-4 mb-4">
+                    <div class="card feature-card">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-container">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h3 class="card-title">Prueba de Nivel Sin Costo</h3>
+                            <p class="card-text">Comienza con una prueba de nivel gratuita que nos permite ubicarte exactamente donde necesitas estar. Así garantizamos que cada minuto de tu aprendizaje sea efectivo y personalizado para tus necesidades específicas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card feature-card">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-container">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h3 class="card-title">Clase de Prueba Gratuita</h3>
+                            <p class="card-text">Experimenta una clase real sin compromiso. Conoce nuestra metodología, al profesor y resuelve todas tus dudas antes de inscribirte.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card feature-card">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-container">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h3 class="card-title">Práctica Conversacional</h3>
+                            <p class="card-text">Enfócate en desarrollar tu fluidez con ejercicios de speaking que simulan situaciones reales de comunicación.</p>
                         </div>
                     </div>
                 </div>
@@ -129,9 +172,9 @@
     <!-- Courses Section -->
     <section class="courses mt-5 mb-5" id="courses">
         <div class="container py-5">
-            <h2 class="text-center mb-5 hero-title">Elige tu curso</h2>
+            <h2 class="section-title">Elige tu curso</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <!-- Basic Plan -->
+                <!-- Standard Course -->
                 <div class="col">
                     <div class="card h-100 pricing-card">
                         <div class="pricing-header bg-primary text-white text-center">
@@ -179,7 +222,7 @@
                         </div>
                     </div>
 
-                <!-- Pro Plan -->
+                <!-- Speaking Course -->
                 <div class="col">
                     <div class="card h-100 pricing-card">
                         <div class="pricing-header bg-success text-white text-center">
@@ -224,7 +267,7 @@
                         </div>
                     </div>
 
-                <!-- Enterprise Plan -->
+                <!-- Grammar Course -->
                 <div class="col">
             <div class="card h-100 pricing-card">
                 <div class="pricing-header bg-dark text-white text-center">
@@ -280,36 +323,12 @@
 
     <!-- Footer -->
     <footer class="mt-auto">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <h5>About Us</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis.</p>
-      </div>
-      <div class="col-md-4 mb-3">
-        <h5>Quick Links</h5>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none text-white">Home</a></li>
-          <li><a href="#" class="text-decoration-none text-white">Services</a></li>
-          <li><a href="#" class="text-decoration-none text-white">Contact</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4 mb-3">
-        <h5>Follow Us</h5>
-        <ul class="list-inline social-icons">
-          <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-instagram"></i></a></li>
-        </ul>
-      </div>
-    </div>
     <hr class="mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
         <p>&copy; 2025 English with Lily. All rights reserved.</p>
       </div>
     </div>
-  </div>
 </footer>
 
 
