@@ -5,11 +5,10 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## This is a simple website I'm building for my online English tutoring business. 
-## It's designed to showcase my courses and provide learning resources.
+### This is a simple website I'm building for my online English tutoring business. It's designed to showcase my courses and provide learning resources.
 
 ## 🌐 Live Demo
-[View the website](https://lilitr09.github.io/My-English-Tutoring-Page-/)
+[View the website](https://lilitr09.github.io/English-with-Lily/)
 
 ## 🛠️ Built With
 - **HTML5** - For structure
